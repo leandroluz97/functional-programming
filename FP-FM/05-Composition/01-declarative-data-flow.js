@@ -17,7 +17,6 @@ totalCost = basedPrice + minus2(triple(increment(4)))
 
 //v3 - Abstration
 const shippingRate = (x) => minus2(triple(increment(x)))
-
 totalCost = basedPrice + shippingRate(4)
 
 
