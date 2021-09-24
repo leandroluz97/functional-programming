@@ -35,3 +35,4 @@ let list = [2, 5, 8, 10, 15, 20]
 const result = list.map(compose(add1, mul2, div3))
 
 console.log(result);
+
